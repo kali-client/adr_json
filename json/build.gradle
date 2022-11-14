@@ -1,0 +1,14 @@
+plugins {
+    id 'java'
+    id 'com.vanniktech.maven.publish'
+}
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_1_8
+    targetCompatibility = JavaVersion.VERSION_1_8
+}
+
+dependencies {
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.11.1'
+    implementation 'com.alibaba:fastjson:1.1.59.android'
+}
